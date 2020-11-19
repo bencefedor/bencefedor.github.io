@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+/* General */
+body {
+    margin: 0;
+    font-family: "Courier", "Consolas", monospace;
+    background-image: url('assets/background.png');
+}
+
+.container {
+    padding: 0 10%;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Merriweather", "Courier", monospace;
+    font-weight: 900;
+}
+
+/* Header */
+header {
+    background-color: #333333;
+}
+
+header .container {
+    display: flex;
+    align-items: ce;
+}
+
+header .container nav {
+    margin-left: auto;
+}
+
+header .container nav ul {
+    list-style-type: none;
+}
+
+header .container nav ul li {
+    display: inline-block;
+    margin-left: 42px;
+}
+
+header .container nav ul li a {
+    font-family: "Consolas", "Courier", monospace;
+    color: #ff0099;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* Home */
+#home {
+    margin-top: 128px;
+}
+
+#home h1 {
+    font-size: 62px;
+    margin-bottom: 36px;
+}
+
+#home h4 {
+    color: #ff0099;
+    font-size: 32px;
+    margin: 12px 0;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Consolas", "Courier", monospace;
+}
+
+p.font-size-l{
+    font-size: 24px;
+}
+
+#home:after {
+    content: "- - -";
+    display: block;
+    font-family: "Consolas", "Courier", monospace;
+    font-weight: bolder;
+    text-align: center;
+    margin: 92px auto 48px auto;
+}
+
+/* Wiki */
+#wiki h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 56px;
+}
+
+#wiki h3 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+#wiki p.line-height-l {
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: "Consolas", "Courier", monospace;
+    font-weight: 500;
+}
